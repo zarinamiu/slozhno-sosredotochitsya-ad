@@ -1,0 +1,9 @@
+.footer {
+  display: grid;
+}
+
+.footer__text {
+  justify-self: center;
+  align-self: center;
+  text-shadow: 2px 2px 0 var(--accent-clr);
+}

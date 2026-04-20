@@ -1,0 +1,20 @@
+.why {
+  margin: 49px 0 0;
+}
+
+@media (min-width: 768px) {
+
+  .why {
+    display: grid;
+    grid-template-columns: 236px 1fr;
+    column-gap: var(--gap);
+    margin: 81px 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .why {
+    grid-template-columns: 314px 1fr;
+  }
+}

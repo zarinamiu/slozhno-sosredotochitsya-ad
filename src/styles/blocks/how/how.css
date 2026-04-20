@@ -1,0 +1,29 @@
+.how {
+  margin: 50px 0 0;
+}
+
+@media (min-width: 768px) {
+
+  .how {
+    display: grid;
+    grid-template-columns: 236px 1fr;
+    column-gap: var(--gap);
+    margin: 80px 0 0;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .how {
+    grid-template-columns: 314px 1fr;
+    margin: 60px 0 0;
+  }
+}
+
+.how__list-heading {
+  margin: 0 0 20px;
+}
+
+.how__list-title {
+  font-weight: 400;
+}

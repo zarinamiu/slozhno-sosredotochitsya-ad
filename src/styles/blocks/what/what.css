@@ -1,0 +1,27 @@
+.what {
+  margin: 50px 0 0;
+}
+
+@media (min-width: 768px) {
+
+  .what {
+    margin: 60px 0 0;
+  }
+
+  .what__heading {
+    max-inline-size: 236px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .what__heading {
+    max-inline-size: 314px;
+  }
+
+  .what__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: var(--gap);
+  }
+}
